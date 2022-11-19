@@ -3,17 +3,19 @@
   <img src="assets/imgs/pedido.png" alt="logo"> 
 
 
+<!-- Formulario Ionic--> 
   <form>
 <ion-item>
   <ion-label stacked>Email </ion-label>
   <ion-input type="text"></ion-input>
 </ion-item>
 <ion-item>
-  <ion-label>Senha</ion-label>
+  <ion-label stacked>Senha</ion-label>
   <ion-input type="password"></ion-input>
 </ion-item>
-  
-<button ion-button block>Entrar</button>
+
+<!-- O metodo click é utilizado para direcionar. Nesse ele irá utilizar o metodo login do Typescript--> 
+<button ion-button block (click) = "login()">Entrar</button>
 </form>
 <button ion-button block>Não tem Conta? Cadastra-se</button>
 
