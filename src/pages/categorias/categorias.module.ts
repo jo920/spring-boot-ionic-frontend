@@ -11,3 +11,5 @@ import { CategoriasPage } from './categorias';
   ],
 })
 export class CategoriasPageModule {}
+
+
